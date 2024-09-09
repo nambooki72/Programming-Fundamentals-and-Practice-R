@@ -1,0 +1,78 @@
+[솔루션 이름]Ch3_sol_****
+[프로젝트 이름]ex1_project
+[소스이름] ex1.c
+
+//[예제1] 덧셈 프로그램 #1
+/* 두개의 숫자의 합을 계산하는 프로그램 */
+#include <stdio.h>
+
+ main(void)
+{
+	int x;		
+	int y;		
+	int sum;	             
+	
+	x = 100;
+	y = 200;
+
+	sum = x + y;
+	printf("두수의 합: %d", sum);
+ 
+              return 0;
+
+}
+ 
+==================================
+[솔루션 이름]Ch3_sol_****
+[프로젝트 이름]ex2_project
+[소스이름] ex2.c
+
+//[예제2] 덧셈 프로그램 #2
+// 사용자로부터 입력받은 2개의 정수의 합을 계산하여 출력
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	int x;					
+	int y;					
+	int sum;				
+	
+	printf("첫번째 숫자를 입력하시오:");	
+	scanf("%d", &x);			
+
+	printf("두번째 숫자를 입력하시오:");	
+	scanf("%d", &y);			
+
+	sum = x + y;				
+	printf("두수의 합: %d", sum);	
+
+	return 0;				
+}
+
+==================================
+[솔루션 이름]Ch3_sol_****
+[프로젝트 이름]quiz0_project
+[소스이름] quiz0.c
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void)
+{
+  char c; 
+  int x;	 
+  float  y;	
+  double sum;
+  
+  scanf("%c", &c);
+  printf("받은 문자 : %c \n", c);
+
+  printf("정수와 실수의 값을 순서대로 입력하세요!\n");
+  scanf("%d", &x);
+  scanf("%f", &y);
+  scanf("%lf", &sum);    
+  printf("각 수의 값 : %d , %f, %f \n", x, y, sum);
+return 0;		
+}
+
+==================================
